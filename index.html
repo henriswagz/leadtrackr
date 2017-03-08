@@ -1,11 +1,23 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<script>
-function newDoc() {
-    window.location.assign("index.php")
-}
+<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>LeadTracker: Welcome </title>
+	<link rel="stylesheet" href="jquery.mobile-1.4.5.min.css" />
+	<script src="jquery-1.7.min.js"></script>
+	<script src="jquery.mobile-1.4.5.min.js"></script>
+	<link rel="stylesheet" href="themes/second.min.css" />
+	<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+<title>Welcome: LearTraker App</title>
+<script type="text/javascript">
+    function pageRedirect() {
+        window.location.replace("index.php");
+    }      
+    setTimeout("pageRedirect()", 1000);
 </script>
+</head>
 <body>
+    <p><strong>Note:</strong> You will be redirected to the LeadTracker in a sec!</p>
 </body>
-
 </html>
